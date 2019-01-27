@@ -9,7 +9,7 @@ class TwitterMessage extends React.Component {
     };
   }
 
-  this.updateMessage (event) => {
+  updateMessage (event) => {
     this.setState({
       message: event.target.value
     })
